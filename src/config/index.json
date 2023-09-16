@@ -1,0 +1,149 @@
+{
+  "company": {
+    "name": "Invest with zaz",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "About",
+      "href": "about"
+    },
+    {
+      "name": "Features",
+      "href": "product"
+    },
+    {
+      "name": "Pricing",
+      "href": "pricing"
+    }
+  ],
+  "callToAction": {
+    "text": "Call us",
+    "href": "tel:923344668456"
+  },
+  "mainHero": {
+    "title": "Welcome to ",
+    "subtitle": "Invest with zaz",
+    "description": "Are you ready to make your money work for you?",
+    "description2": "At Invest with zaz, we offer you a unique investment opportunity that guarantees a steady monthly income. With a simple investment, you can enjoy a heavy monthly return for 12 months, giving you a total return with a ",
+    "description3": "50% profit ",
+    "description4": "in just one year.",
+    "description5": "Let's secure your future together.",
+    "img": "/assets/images/happyTeam.jpeg",
+    "primaryAction": {
+      "text": "Call us",
+      "href": "tel:923344668456"
+    },
+    "secondaryAction": {
+      "text": "Email us",
+      "href": "mailto:aitzaz.tahir1@gmail.com?subject=invest with zaz"
+    }
+  },
+  "product": {
+    "title": "Why Choose ",
+    "titlebold":"Invest with Zaz",
+    "titlesimple": "?",
+    "items": [
+      {
+        "title": "Completely halal",
+        "description": "Our model is completely halal, becuase it's a rental agreement for 12 months. So, no need to worry about that.",
+        "img": "/assets/images/halal.webp"
+      },
+      {
+        "title": "Secure Investments",
+        "description": "Your investment is our top priority. We ensure the safety of your funds through a transparent and reliable investment model.",
+        "img": "/assets/images/secure.png"
+      },
+      {
+        "title": "50% Profit",
+        "description": "We are the only one in market giving 50% in total profit guranteed through our rental agreement.",
+        "img": "/assets/images/profit.png"
+      },
+      {
+        "title": "Steady Monthly Income",
+        "description": "Enjoy financial stability with a consistent monthly income, allowing you to plan for a brighter future.",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Expert Guidance",
+        "description": "Our team of financial experts is here to guide you every step of the way..",
+        "img": "/assets/images/product2.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Latest & greatest ",
+    "subtitle": "All the best technologies out there!",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "items": [
+      {
+        "name": "React.js",
+        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Tailwind",
+        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "Next.js",
+        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Typescript",
+        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "icon": "/assets/images/ts.png"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "items": [
+      {
+        "name": "Silver",
+        "price": "Coming Soon",
+        "priceDetails": "",
+        "features": []
+      },
+      {
+        "name": "Gold",
+        "price": "50% Profit",
+        "priceDetails": "",
+
+        "features": [
+          "Rs400,000 initial investment",
+          "Rs50,000/month for 12 months ",
+          "Rs600,000 in total by the end of 1 year",
+          "Cancel anytime"
+        ]
+      },
+      {
+        "name": "Platinum",
+        "price": "Coming Soon",
+        "priceDetails": "",
+        "features": []
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Call us",
+        "href": "tel:923344668456",
+        "content": ""
+      },
+      {
+        "name": "Email us",
+        "href": "mailto:aitzaz.tahir1@gmail.com?subject=invest with zaz",
+        "content": ""
+      }
+    ],
+    "socialMedia": {
+      "github": "",
+      "twitter": "",
+      "linkedin": ""
+    }
+  }
+}
