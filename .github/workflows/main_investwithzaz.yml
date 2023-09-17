@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'investwithzaz'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A17E9F355CE34C498800ED2ABCB1FDA6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C55C26C5FA0747B082F9FF203A628D89 }}
           package: .
