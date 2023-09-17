@@ -26,3 +26,16 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+.canvas-container {
+  position: relative;
+}
+
+.about-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Ensures that the About component stays in front */
+}

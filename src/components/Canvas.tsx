@@ -1,5 +1,4 @@
 import { useRef, FC, useEffect, useState } from 'react';
-
 import { CanvasContext } from '../hooks/useCanvas';
 import useResponsiveSize from '../hooks/useResponsiveSize';
 import Wave from './Wave';
@@ -19,7 +18,7 @@ const Canvas: FC = () => {
   return (
     <>
       <CanvasContext.Provider value={{ context }}>
-        <canvas id="canvas" ref={canvasRef} width={width} height={220}></canvas>
+        <canvas id="canvas" ref={canvasRef} width={width} height={300}></canvas>
         <Wave />
       </CanvasContext.Provider>
     </>
