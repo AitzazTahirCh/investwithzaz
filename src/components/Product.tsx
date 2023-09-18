@@ -2,6 +2,7 @@ import React from 'react';
 
 import config from '../config/index.json';
 import Divider from './Divider';
+import LazyShow from './LazyShow';
 
 const Product = () => {
   const { product } = config;
@@ -39,6 +40,7 @@ const Product = () => {
           ))}
         </h1>
         <Divider />
+        <LazyShow>
         <div className={`flex flex-wrap`}>
           <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
             <h3
@@ -56,6 +58,8 @@ const Product = () => {
             />
           </div>
         </div>
+        </LazyShow>
+        <LazyShow>
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img width="50%" height="50%"
@@ -75,6 +79,8 @@ const Product = () => {
             </div>
           </div>
         </div>
+        </LazyShow>
+        <LazyShow>
         <div className={`flex flex-wrap`}>
           <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
             <h3
@@ -92,6 +98,8 @@ const Product = () => {
             />
           </div>
         </div>
+        </LazyShow>
+        <LazyShow>
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img width="70%" height="70%"
@@ -111,6 +119,8 @@ const Product = () => {
             </div>
           </div>
         </div>
+        </LazyShow>
+        <LazyShow>
         <div className={`flex flex-wrap`}>
           <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
             <h3
@@ -128,6 +138,7 @@ const Product = () => {
             />
           </div>
         </div>
+        </LazyShow>
       </div>
     </section>
   );
