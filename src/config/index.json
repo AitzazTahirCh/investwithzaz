@@ -26,7 +26,7 @@
     "subtitle": "Invest with zaz",
     "description": "Are you ready to make your money work for you?",
     "description2": "At Invest with zaz, we offer you a unique investment opportunity that guarantees a steady monthly income. With a simple investment, you can enjoy a heavy monthly return for 12 months, giving you a total return with a ",
-    "description3": "50% profit ",
+    "description3": "upto 60% profit ",
     "description4": "in just one year.",
     "description5": "Let's secure your future together.",
     "img": "/assets/images/happyTeam.jpeg",
@@ -41,7 +41,7 @@
   },
   "product": {
     "title": "Why Choose ",
-    "titlebold":"Invest with zaz",
+    "titlebold": "Invest with zaz",
     "titlesimple": "?",
     "items": [
       {
@@ -103,27 +103,39 @@
     "items": [
       {
         "name": "Silver",
-        "price": "Coming Soon",
+        "price": "50% Profit",
         "priceDetails": "",
-        "features": []
+        "features": [
+          "Rs50,000 initial investment",
+          "Rs2,000/month for 12 months ",
+          "Rs50,000 cash back cheque",
+          "Rs74,000 in total by the end of 1 year",
+          "Cancel anytime"
+        ]
       },
       {
         "name": "Gold",
-        "price": "50% Profit",
+        "price": "60% Profit",
         "priceDetails": "",
 
+        "features": [
+          "Rs200,000 initial investment",
+          "Rs10,000/month for 12 months ",
+          "Rs200,000 cash back cheque",
+          "Rs320,000 in total by the end of 1 year",
+          "Cancel anytime"
+        ]
+      },
+      {
+        "name": "Platinum",
+        "price": "50% Profit",
+        "priceDetails": "",
         "features": [
           "Rs400,000 initial investment",
           "Rs50,000/month for 12 months ",
           "Rs600,000 in total by the end of 1 year",
           "Cancel anytime"
         ]
-      },
-      {
-        "name": "Platinum",
-        "price": "Coming Soon",
-        "priceDetails": "",
-        "features": []
       }
     ]
   },
